@@ -1,0 +1,31 @@
+{
+  "name": "technogram",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "axios": "^1.9.0",
+    "framer-motion": "^12.10.1",
+    "jspdf": "^3.0.1",
+    "next": "^15.3.3",
+    "next-auth": "^4.24.11",
+    "react": "^19.1.0",
+    "react-circular-progressbar": "^2.2.0",
+    "react-confetti": "^6.4.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "react-use": "^17.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.0",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "^19",
+    "typescript": "5.8.3"
+  }
+}

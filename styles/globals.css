@@ -1,0 +1,86 @@
+/* globals.css */
+
+/* Ensure html and body take full height */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Main app container uses flex column layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Header stays at the top */
+.header {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+/* Logo section in the header */
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Navigation links */
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 18px; /* 👈 adjust this as needed */
+  font-weight: 500; /* optional: make it bolder */
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* Main content grows to fill space */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f0f2f5;
+  overflow-y: auto;
+}
+
+/* Camera display box */
+.camera-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Live camera feed */
+.camera-feed {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer stays at the bottom */
+.footer {
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+}
